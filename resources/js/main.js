@@ -31,7 +31,7 @@ document.querySelector(".minutes").innerHTML = (minutes < 10 ? "0" : "") + minut
 document.querySelector(".seconds").innerHTML = (seconds < 10 ? "0" : "") + seconds;
 
 
-if(distance < 00){
+if(distance > 00){
     
     
    
