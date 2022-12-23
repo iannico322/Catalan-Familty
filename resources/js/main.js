@@ -1,6 +1,6 @@
 
 $(window).on('load',function(){
-    $(".loading").fadeOut(2000);
+    $(".loading").fadeOut(10000);
     
     $(".container").fadein(1000);
 })
@@ -44,7 +44,7 @@ if(distance < 00){
     document.querySelector(".fire-display").style.display = "block";
     var greet = document.querySelector(".countdown")
     greet.className += " greet"
-    greet.innerHTML = "Catalan Family";
+    greet.innerHTML = "Caulin Family";
     
     setTimeout(function() {
         music.src = "./resources/media/audio/alliwant.mp3"     
